@@ -9,7 +9,7 @@ eureka:
   client:
     #본인 서비스를 eureka 서버에 등록여부(eureka는 서버이면서 clienct가 가능.)
     resigsterWithEureka: false
-    #client가 eureka 서버로 부터 서비스 리스트 정보를 로컬에 캐싱할지 여부..
+    #client가 eureka 서버로 부터 서비스 리스트 정보를 로컬에 캐싱할지 여부...
     fetchRegistry: false
     serviceUrl:
       #동일한 zone의 eureka server clustering 설정
